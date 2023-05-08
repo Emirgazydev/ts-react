@@ -1,8 +1,20 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useState} from "react";
 
 const Header = () => {
+    const [scroll, setScroll] = useState(0)
+
+    const toScroll = () => {
+        setScroll(window.scrollY)
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', toScroll)
+    }, [])
     return (
-        <header id="header" className="bg-[#191919] fixed w-[100%] py-6">
+        <header id="header" className="bg-[#191919] fixed w-[100%] py-6" style={{
+            background: scroll > 50 ? '#1708ab' : ''
+        }}>
             <div className="container">
                 <div className="header flex justify-between items-center"><h1
                     className="text-3xl font-semibold text-white ">Castaway</h1>
