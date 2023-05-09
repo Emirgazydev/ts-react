@@ -1,24 +1,24 @@
 import React from 'react';
 import icon1 from "../components/img/icon1'.svg"
 import icon2 from "../components/img/icon2.png"
-import icon3 from "../components/img/icon3.png"
-import icon4 from "../components/img/icon4.png"
-import icon5 from "../components/img/icon5.png"
+import icon3 from "../components/img/icon11.svg"
+import icon4 from "../components/img/icon22.svg"
+import icon5 from "../components/img/icon33.svg"
 import {AiOutlineInstagram} from "react-icons/ai";
 import {CiTwitter,CiFacebook} from "react-icons/ci";
 
 const Footer = () => {
     return (
-        <div className="flex justify-between text-white items-start pb-[100px]">
+        <div className="flex justify-between text-white items-start p-[100px]">
             <div>
                 <h1 className="font-bold text-4xl pb-2">Castaway</h1>
-                <div className="flex text-2xl">
+                <div className="flex text-4xl justify-evenly pt-6 text-red-600">
                     <a href="https://www.instagram.com/"><AiOutlineInstagram/></a>
                     <a href="https://twitter.com/?lang=ru"><CiTwitter/></a>
                     <a href="https://ru-ru.facebook.com/"><CiFacebook/></a>
                 </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col ">
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Episodes</a>

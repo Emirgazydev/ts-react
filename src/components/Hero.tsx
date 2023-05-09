@@ -2,9 +2,9 @@ import React from 'react';
 import img from "../components/img/Frame-3.png"
 import icon1 from "../components/img/icon1'.svg"
 import icon2 from "../components/img/icon2.png"
-import icon3 from "../components/img/icon2.png"
-import icon4 from "../components/img/icon4.png"
-import icon5 from "../components/img/icon5.png"
+import icon3 from "../components/img/icon11.svg"
+import icon4 from "../components/img/icon22.svg"
+import icon5 from "../components/img/icon33.svg"
 
 const Hero = () => {
     return (
