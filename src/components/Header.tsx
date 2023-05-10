@@ -7,13 +7,12 @@ const Header = () => {
     const toScroll = () => {
         setScroll(window.scrollY)
     }
-
     useEffect(() => {
         window.addEventListener('scroll', toScroll)
     }, [])
     return (
         <header id="header" className="bg-[#191919] fixed w-[100%] py-6" style={{
-            background: scroll > 50 ? '#1708ab' : ''
+            background: scroll > 50 ? '#00C391' : ''
         }}>
             <div className="container">
                 <div className="header flex justify-between items-center"><h1

@@ -18,19 +18,19 @@ const Footer = () => {
                     <a href="https://ru-ru.facebook.com/"><CiFacebook/></a>
                 </div>
             </div>
-            <div className="flex flex-col ">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Episodes</a>
-                <a href="#">Contact</a>
+            <div className="flex flex-col">
+                <a className="pb-4" href="#">Home</a>
+                <a className="pb-4" href="#">About</a>
+                <a className="pb-4" href="#">Episodes</a>
+                <a className="pb-4" href="#">Contact</a>
             </div>
             <div className="flex flex-col">
-                <a href="#">Style Guide</a>
-                <a href="#">Instructions</a>
-                <a href="#">Changelog</a>
-                <a href="#">Credit</a>
-                <a href="#">Powered by Webflow</a>
-                <a href="#">Licenses</a>
+                <a className="pb-4" href="#">Style Guide</a>
+                <a className="pb-4" href="#">Instructions</a>
+                <a className="pb-4" href="#">Changelog</a>
+                <a className="pb-4" href="#">Credit</a>
+                <a className="pb-4" href="#">Powered by Webflow</a>
+                <a className="pb-4" href="#">Licenses</a>
             </div>
             <div className="flex">
                 <img src={icon1} alt="" className="mx-2"/>
